@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.page-header .container {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-logo {
+}
+.page-nav {
+}
+
+.page-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav-list li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.page-nav-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8e9696;
+  font-weight: 600;
+}
+
+.page-nav-list a:hover {
+  color: #213131;
+}
+
+/* Banner */
+.banner {
+  height: 560px;
+  width: 100%;
+  background-image: url(../images/banner-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.banner .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 57px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner-title span {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.banner-text {
+  font-size: 20px;
+  font-weight: 400px;
+  opacity: 0.6;
+}
+
+
+/* Page-content */
+
+.page-content .container {
+   margin: 100px auto;
+   display: flex;
+   justify-content: space-around;
+}
+
+.article {
+   max-width: 280px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.article-photo-img {
+   width: 250px;
+   height: auto;
+   border-radius: 50%;
+}
+.article-title {
+  font-weight: 600;
+  margin: 30px auto;
+}
+.article-text {
+   color: #b0aeab;
+   margin-bottom: 30px;
+}
+.atricle-button {
+   display: inline-block;
+   padding: 15px 25px;
+   border: 2px solid #f35044;
+   border-radius: 50px;
+   color: #f35044;
+   text-decoration: none;
+   cursor: pointer;
+}
+.atricle-button:hover {
+   color: #860f06;
+}
+
+/* Footer */
+.page-footer {
+   height: 180px;
+   background: #f2f2f2;
+}
+
+.page-footer .container {
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.page-footer-nav {}
+
+.page-footer-nav-list {
+   list-style: none;
+   display: flex;
+}
+
+.page-footer-nav-list li {
+   margin-left: 20px;
+}
+
+.page-footer-nav-list a {
+   text-decoration: none;
+   color: #f35044;
+}
+
+.page-footer-nav-list a:hover {
+   color: #860f06;
+}
+
+.page-footer-copyright {
+   color: #b6b6b6;
+   font-style: italic;
+}
